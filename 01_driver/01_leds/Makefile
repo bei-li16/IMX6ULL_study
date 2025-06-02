@@ -21,7 +21,7 @@ led.bin: $(objs)
 	$(CC) $(CFLAGS) -c $< -o $@
 
 clean:
-	rm -rf *.o led.bin led.elf led.dis
+	rm -rf *.o led.bin led.elf led.dis *.imx
 	
 run:
 	sudo -i $(PWD)/uuu $(PWD)/led.imx 
