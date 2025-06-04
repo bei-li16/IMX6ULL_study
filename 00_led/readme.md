@@ -1,5 +1,7 @@
 # IMX6ULL工程
 
+1. ssh修改工程权限：sudo chmod -R 777 /home/bei-li16/alientek/imx6ull
+
 ## 烧写代码
 1. Ubuntu系统安装USB驱动：sudo apt-get install libusb-1.0.0-dev libzip-dev libbz2-dev
 2. USB连接开发板USB-OTG和电脑（切换连接到虚拟机）
