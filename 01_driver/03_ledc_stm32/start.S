@@ -39,7 +39,7 @@ _start:
 	mov r2,  #0
 bss_loop:
 	stmia r0!, {r2}		/* 向r0的地址写入0,然后r0寄存器保存的地址值加1 */
-	cmp r0, r1  		/* 比较r0和r1，也就是__bss_start和__bss_end的值*/
+	cmp r0, r1  		/* 比较r0和r1,也就是__bss_start和__bss_end的值*/
 	ble bss_loop		/* 如果小于等于的话就跳转到bss_loop继续清bss段*/
 
 	/* 设置sp指针 */
