@@ -1,0 +1,12 @@
+# 忽略所有 .o 和 .obj 文件（任何位置）
+*.o
+*.obj
+*.elf
+*.imx
+*.dis
+*.bin
+
+# 忽略所有 Debug 目录下的内容（不忽略 Debug 目录本身）
+# **/Debug/*
+# !**/Debug/
+# !**/Debug/.gitkeep
